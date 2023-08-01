@@ -1,19 +1,21 @@
 #include<stdio.h>
 #include<conio.h>
+
 void main()
 {
     int a;
-
-    printf("Enter The Number :");
+    
+    printf("Enter The Number Of A :");
     scanf("%d",&a);
-
+    
     if(a%2==0)
     {
-        printf("Number is Even");
+    	printf("Number is Even");
     }
-    else 
+    else
     {
-        printf("Number is Odd");
+    	printf("Number is Odd");
     }
+    
     getch();
 }

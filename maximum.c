@@ -1,23 +1,30 @@
 #include<stdio.h>
 #include<conio.h>
+
 void main()
 {
-    int a,b;
-
-    printf("Enter the value of A : ");
+    int a,b,c;
+    
+    printf("Enter The Number Of A :");
     scanf("%d",&a);
-
-    printf("Enter the value of B : ");
+    
+    printf("Enter The Number Of B :");
     scanf("%d",&b);
-
-    if(a>b)
+    
+    printf("Enter The Number Of C :");
+    scanf("%d",&c);
+    
+    if(a>b && a>c)
     {
-        printf("A is Max");        
+    	printf("A is Max");
     }
-
+    else if(b>c)
+    {
+    	printf("B is Max");
+    }
     else
     {
-        printf("B is Max");
+    	printf("C is Max");
     }
     getch();
 }
